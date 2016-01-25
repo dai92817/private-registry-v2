@@ -1,8 +1,8 @@
 #!/bin/bash
 echo $USERNAME
-echo $USER_PWD
+echo $PASSWORD
 #htpasswd -cb /htpasswd $USERNAME $USER_PWD
-htpasswd -Bbn $USERNAME $USER_PWD > /htpasswd
+htpasswd -Bbn $USERNAME $PASSWORD > /htpasswd
 
 /bin/registry /etc/docker/registry/config.yml
 
