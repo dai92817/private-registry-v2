@@ -14,8 +14,6 @@ storage:
        secure: false		
        v4auth: true		
        rootdirectory: /registry2
-    filesystem:
-        rootdirectory: /var/lib/registry
 http:
     addr: :5000
 auth:
