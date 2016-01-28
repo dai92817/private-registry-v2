@@ -5,15 +5,8 @@ log:
 storage:
     cache:
         layerinfo: inmemory
-    s3:		
-       accesskey: REDACTED		
-       secretkey: REDACTED
-       bucket: REDACTED
-       region: cn-north-1
-       encrypt: false		
-       secure: false		
-       v4auth: true		
-       rootdirectory: /registry2
+    filesystem:
+        rootdirectory: /var/lib/registry
 http:
     addr: :5000
 auth:
