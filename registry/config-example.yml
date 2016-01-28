@@ -11,7 +11,7 @@ storage:
       bucket: REDACTED
       encrypt: false
       secure: false
-      v4auth: true
+      v4auth: false
       rootdirectory: /registry2
     filesystem:
         rootdirectory: /var/lib/registry
